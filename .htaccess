@@ -5,6 +5,6 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule uslugi uslugi.html
-RewriteRule cennik cennik.html
-RewriteRule o_mnie o_mnie.html
+RewriteRule services services.html
+RewriteRule price_list price_list.html
+RewriteRule about_me about_me.html
