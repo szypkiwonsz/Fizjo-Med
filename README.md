@@ -15,6 +15,7 @@ Open a terminal with the selected path where the project should be cloned
 ```
 Type: git clone https://github.com/szypkiwonsz/fizjo-med.git
 ```
+---
 ### Running
 
 How to run a project
