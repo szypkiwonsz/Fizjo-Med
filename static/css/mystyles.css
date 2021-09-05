@@ -3,11 +3,13 @@ body {
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron.webp);
+    background-size: cover;
 }
 
 .jumbotron-second {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron2.webp);
+    background-size: cover;
 }
 
 .navbar-brand {
