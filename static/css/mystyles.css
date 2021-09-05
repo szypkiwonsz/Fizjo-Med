@@ -93,10 +93,6 @@ h6 {
     font-size: clamp(12px, 2vw, 16px);
 }
 
-.office-name {
-    margin-top: 20%;
-}
-
 .small-hr {
     width: 160px;
     margin: 0 auto;
@@ -230,5 +226,22 @@ a {
 @media only screen and (max-width: 991px) {
     .center-text {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .service-text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.office-name {
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 991px) {
+    .office-name {
+        margin-top: 25%;
     }
 }
