@@ -3,11 +3,13 @@ body {
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron.webp);
+    background-size: cover;
 }
 
 .jumbotron-second {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../img/jumbotron2.webp);
+    background-size: cover;
 }
 
 .navbar-brand {
@@ -89,10 +91,6 @@ h6 {
     font-weight: lighter;
     font-family: Poppins, serif;
     font-size: clamp(12px, 2vw, 16px);
-}
-
-.office-name {
-    margin-top: 20%;
 }
 
 .small-hr {
@@ -228,5 +226,22 @@ a {
 @media only screen and (max-width: 991px) {
     .center-text {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .service-text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.office-name {
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 991px) {
+    .office-name {
+        margin-top: 25%;
     }
 }
